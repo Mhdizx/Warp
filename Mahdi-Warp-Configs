@@ -1,0 +1,144 @@
+
+{
+  "outbounds": 
+  [
+    {
+      "type": "wireguard",
+      "tag": "Mahdi-IR2",
+      "server": "162.159.195.138",
+      "server_port": 8742,
+
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:89b9:72ed:752a:a460:cac7/128"
+      ],
+      "private_key": "8AqK1WVgpI4rxp5OdNL3Sx8cHbnhAYkL/FLoBhmfr3Y=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [131,241,182],
+
+      "mtu": 1280,
+      "fake_packets": "5-10"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Mahdi-Main2",
+      "detour": "Mahdi-IR2",
+      "server": "162.159.195.138",
+      "server_port": 8742,
+      
+      "local_address": [
+          "172.16.0.2/32",
+          "2606:4700:110:8349:24de:166b:23cb:367d/128"
+      ],
+      "private_key": "cIefXLIo/3YVrJo4tR/vOXPXs1nUOWCGqEnemwEYiF4=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [41,23,225],  
+
+      "mtu": 1120,
+      "fake_packets": "5-10"
+    },{
+      "type": "wireguard",
+      "tag": "Mahdi-IR3",
+      "server": "188.114.99.192",
+      "server_port": 8742,
+
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:89b9:72ed:752a:a460:cac7/128"
+      ],
+      "private_key": "8AqK1WVgpI4rxp5OdNL3Sx8cHbnhAYkL/FLoBhmfr3Y=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [131,241,182],
+
+      "mtu": 1280,
+      "fake_packets": "5-10"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Mahdi-Main3",
+      "detour": "Mahdi-IR3",
+      "server": "188.114.99.192",
+      "server_port": 8742,
+      
+      "local_address": [
+          "172.16.0.2/32",
+          "2606:4700:110:8349:24de:166b:23cb:367d/128"
+      ],
+      "private_key": "cIefXLIo/3YVrJo4tR/vOXPXs1nUOWCGqEnemwEYiF4=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [41,23,225],  
+
+      "mtu": 1120,
+      "fake_packets": "5-10"
+    },{
+      "type": "wireguard",
+      "tag": "Mahdi-IR4",
+      "server": "162.159.195.211",
+      "server_port": 3854,
+
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:89b9:72ed:752a:a460:cac7/128"
+      ],
+      "private_key": "8AqK1WVgpI4rxp5OdNL3Sx8cHbnhAYkL/FLoBhmfr3Y=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [131,241,182],
+
+      "mtu": 1280,
+      "fake_packets": "5-10"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Mahdi-Main4",
+      "detour": "Mahdi-IR4",
+      "server": "162.159.195.211",
+      "server_port": 3854,
+      
+      "local_address": [
+          "172.16.0.2/32",
+          "2606:4700:110:8349:24de:166b:23cb:367d/128"
+      ],
+      "private_key": "cIefXLIo/3YVrJo4tR/vOXPXs1nUOWCGqEnemwEYiF4=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [41,23,225],  
+
+      "mtu": 1120,
+      "fake_packets": "5-10"
+    },{
+      "type": "wireguard",
+      "tag": "Mahdi-IR5",
+      "server": "162.159.192.51",
+      "server_port": 8742,
+
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:89b9:72ed:752a:a460:cac7/128"
+      ],
+      "private_key": "8AqK1WVgpI4rxp5OdNL3Sx8cHbnhAYkL/FLoBhmfr3Y=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [131,241,182],
+
+      "mtu": 1280,
+      "fake_packets": "5-10"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Mahdi-Main5",
+      "detour": "Mahdi-IR5",
+      "server": "162.159.192.51",
+      "server_port": 8742,
+      
+      "local_address": [
+          "172.16.0.2/32",
+          "2606:4700:110:8349:24de:166b:23cb:367d/128"
+      ],
+      "private_key": "cIefXLIo/3YVrJo4tR/vOXPXs1nUOWCGqEnemwEYiF4=",
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": [41,23,225],  
+
+      "mtu": 1120,
+      "fake_packets": "5-10"
+    }
+  ]
+}
+
